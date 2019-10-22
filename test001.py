@@ -1,4 +1,4 @@
-from func001 import function1, function2
+from func001 import function1, function2, function3, function4
 
 
 def setUp():
