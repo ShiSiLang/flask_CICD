@@ -4,3 +4,7 @@ def function1():
 
 def function2():
     return 200
+
+
+def function3():
+    return 200
