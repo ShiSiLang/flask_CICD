@@ -1,0 +1,15 @@
+sudo: false
+language: python
+
+python:
+  - "3.6"
+
+install:
+  - pip install requests
+  - pip install nose
+  - pip install pep8
+  - pip install pytest
+
+script:
+  - pep8 --max-line-length=180 .
+  - nosetests -s
