@@ -1,4 +1,4 @@
-from func001 import function1, function2
+from func001 import function1, function2, function3, function4
 
 
 def setUp():
@@ -22,3 +22,9 @@ def Test2():
 def Test3():
     rt = function2()
     assert rt == 200
+
+
+def Test34():
+    rt = function4()
+    assert rt == 200
+
