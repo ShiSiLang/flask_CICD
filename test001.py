@@ -17,3 +17,8 @@ def Test1():
 def Test2():
     rt = function2()
     assert rt == 200
+
+
+def Test3():
+    rt = function2()
+    assert rt == 200
