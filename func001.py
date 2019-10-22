@@ -8,3 +8,7 @@ def function2():
 
 def function3():
     return 200
+
+
+def function4():
+    return 100
