@@ -22,3 +22,9 @@ def Test2():
 def Test3():
     rt = function2()
     assert rt == 200
+
+
+def Test34():
+    rt = function4()
+    assert rt == 200
+
